@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projetos — Miguel Angelo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/m-logo.svg">
+  <link rel="stylesheet" href="projects.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="../../index.html" aria-label="Ir para a home">
+      <span>Miguel&nbsp;Angelo</span>
+    </a>
+    <nav class="menu">
+      <a href="../skills/skills.html">Habilidades</a>
+      <a href="../experience/experience.html">Experiência</a>
+      <a href="projects.html" aria-current="page">Projetos</a>
+    </nav>
+    <div class="cta">
+      <a class="btn btn--ghost" href="https://github.com/Miansamou" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn--primary" href="https://wa.me/5511945398563" target="_blank" rel="noopener">Fale comigo</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="glow"></div><div class="glow gold"></div>
+  <section class="container">
+    <h1 class="page-title">Projetos</h1>
+    <p class="subtitle">Filtro rápido por categoria.</p>
+
+    <div class="toolbar">
+      <div id="filters" class="chips" role="tablist" aria-label="Filtros">
+        <button class="chip active" data-tag="all" role="tab">Todos</button>
+        <button class="chip" data-tag="mobile" role="tab">Mobile</button>
+        <button class="chip" data-tag="backend" role="tab">Backend</button>
+        <button class="chip" data-tag="game" role="tab">Games</button>
+        <button class="chip" data-tag="web" role="tab">Web</button>
+      </div>
+      <input id="q" class="search" type="search" placeholder="Buscar..." aria-label="Buscar projetos">
+    </div>
+
+    <div id="grid" class="grid"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <span>© <span id="year"></span> Miguel Angelo</span>
+  </div>
+</footer>
+
+<script src="projects.js"></script>
+</body>
+</html>

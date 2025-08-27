@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Habilidades de Miguel Angelo</title>
+  <meta name="description" content="Currículo de Miguel Angelo" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="skills.css" />
+  <link rel="icon" type="image/svg+xml" href="../../assets/icons/m-logo.svg" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="../../index.html" aria-label="Ir para a home">
+      <span>Miguel&nbsp;Angelo</span>
+    </a>
+    <nav class="menu" aria-label="Principal">
+      <a href="skills.html" aria-current="page">Habilidades</a>
+      <a href="../experience/experience.html">Experiência</a>
+      <a href="../projects/projects.html">Projetos</a>
+    </nav>
+    <div class="cta">
+      <a class="btn btn--ghost" href="https://github.com/Miansamou" target="_blank" rel="noreferrer noopener">GitHub</a>
+      <a class="btn btn--primary" href="https://wa.me/5511945398563">Fale comigo</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="glow"></div><div class="glow gold"></div>
+  <section class="container">
+    <h1 class="page-title">Habilidades</h1>
+    <p class="subtitle">Clique em uma habilidade para ver detalhes e stacks relacionadas.</p>
+    <div id="skills-list" class="skills-grid reveal"></div>
+    <article id="skill-detail" class="detail card hidden" aria-live="polite">
+      <div class="detail-header">
+        <button id="btn-back" class="btn btn--ghost" type="button">← Voltar</button>
+        <h2 id="detail-title"></h2>
+      </div>
+      <p id="detail-body" class="detail-body"></p>
+
+      <nav class="subnav" aria-label="Stacks relacionadas">
+        <ul id="subskills" class="chips"></ul>
+      </nav>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <span>© <span id="year"></span> Miguel Angelo</span>
+  </div>
+</footer>
+
+<script src="skills.js"></script>
+</body>
+</html>
