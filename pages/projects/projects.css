@@ -159,7 +159,8 @@ header {
 .grid {
     display: grid;
     grid-template-columns:repeat(12, 1fr);
-    gap: 18px
+    gap: 18px;
+    padding: 0 0 16px;
 }
 
 .card {
@@ -170,7 +171,7 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .25), 0 8px 20px rgba(0, 0, 0, .35), inset 0 1px 0 rgba(255, 255, 255, .04)
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .25), inset 0 1px 0 rgba(255, 255, 255, .04)
 }
 
 .thumb {
@@ -316,7 +317,7 @@ footer {
 .glow.gold {
     left: -20%;
     top: auto;
-    bottom: -15%;
+    bottom: 0;
     right: auto;
     background: radial-gradient(closest-side, rgba(212, 175, 55, .45), transparent 70%)
 }

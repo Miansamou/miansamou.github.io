@@ -122,7 +122,12 @@ header {
     margin: 0px
 }
 
-.subtitle-row{ display:inline-flex; align-items:center; gap:8px; }
+.subtitle-row{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding: 0 0 8px;
+}
 
 /* cards/lista */
 .skills-grid {
@@ -278,7 +283,7 @@ footer {
 .glow.gold {
     left: -20%;
     top: auto;
-    bottom: -15%;
+    bottom: 0;
     right: auto;
     background: radial-gradient(closest-side, rgba(212, 175, 55, .45), transparent 70%)
 }

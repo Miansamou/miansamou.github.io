@@ -14,16 +14,27 @@ const DATA = [
     }
   },
   {
-    id: 'dav',
-    nome: 'DAV by Hipcom',
-    ano: 2022,
-    desc: 'Emissão de pedidos online/offline, multi-loja e painel administrativo.',
+    id: 'anguysh',
+    nome: 'Anguysh',
+    ano: 2021,
+    desc: 'Controle um pequeno dragão que encontra-se perdido nas profundidades de uma masmorra misteriosa. Sozinho,' +
+      ' você terá que explorar o local para encontrar as suas memórias perdidas que estão espalhadas por toda essa prisão.',
+    tags: ['game'],
+    tech: ['Unity', 'C#'],
+    thumb: '../../assets/images/anguysh.jpg',
+    links: { itch: 'https://felipesenacjogos.itch.io/anguysh', github: 'https://github.com/Miansamou/Anguysh' }
+  },
+  {
+    id: 'compras',
+    nome: 'Compras by Hipcom',
+    ano: 2024,
+    desc: 'Pedidos de compras por fornecedor com autonomia e agilidade.',
     tags: ['mobile'],
     tech: ['Flutter', 'Quarkus', 'SQLite', 'Mysql'],
-    thumb: '../../assets/images/dav.jpeg',
+    thumb: '../../assets/images/compras.jpeg',
     links: {
-      appstore: 'https://apps.apple.com/br/app/dav-by-hipcom/id1613205650',
-      play: 'https://play.google.com/store/apps/details?id=br.com.hipcom.dav'
+      appstore: 'https://apps.apple.com/br/app/compras-by-hipcom/id6450755920',
+      play: 'https://play.google.com/store/apps/details?id=br.com.hipcom.pedido'
     }
   },
   {
@@ -40,29 +51,18 @@ const DATA = [
     }
   },
   {
-    id: 'compras',
-    nome: 'Compras by Hipcom',
-    ano: 2024,
-    desc: 'Pedidos de compras por fornecedor com autonomia e agilidade.',
+    id: 'dav',
+    nome: 'DAV by Hipcom',
+    ano: 2022,
+    desc: 'Emissão de pedidos online/offline, multi-loja e painel administrativo.',
     tags: ['mobile'],
     tech: ['Flutter', 'Quarkus', 'SQLite', 'Mysql'],
-    thumb: '../../assets/images/compras.jpeg',
+    thumb: '../../assets/images/dav.jpeg',
     links: {
-      appstore: 'https://apps.apple.com/br/app/compras-by-hipcom/id6450755920',
-      play: 'https://play.google.com/store/apps/details?id=br.com.hipcom.pedido'
+      appstore: 'https://apps.apple.com/br/app/dav-by-hipcom/id1613205650',
+      play: 'https://play.google.com/store/apps/details?id=br.com.hipcom.dav'
     }
   },
-  {
-    id: 'anguysh',
-    nome: 'Anguysh',
-    ano: 2021,
-    desc: 'Controle um pequeno dragão que encontra-se perdido nas profundidades de uma masmorra misteriosa. Sozinho,' +
-      ' você terá que explorar o local para encontrar as suas memórias perdidas que estão espalhadas por toda essa prisão.',
-    tags: ['game'],
-    tech: ['Unity', 'C#'],
-    thumb: '../../assets/images/anguysh.jpg',
-    links: { itch: 'https://felipesenacjogos.itch.io/anguysh', github: 'https://github.com/Miansamou/Anguysh' }
-  }
 ];
 
 const grid = document.getElementById('grid');

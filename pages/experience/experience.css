@@ -165,14 +165,16 @@ header {
 }
 
 .tl-head {
+    background: linear-gradient(180deg, var(--surface), #0c0e13);
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    align-items: baseline
+    align-items: baseline;
 }
 
 .tl-role {
-    font-weight: 700
+    font-weight: 700;
+    padding: 0 0 8px;
 }
 
 .tl-meta {
@@ -253,7 +255,7 @@ footer {
 .glow.gold {
     left: -20%;
     top: auto;
-    bottom: -15%;
+    bottom: 0;
     right: auto;
     background: radial-gradient(closest-side, rgba(212, 175, 55, .45), transparent 70%)
 }

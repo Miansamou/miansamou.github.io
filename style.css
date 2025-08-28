@@ -284,7 +284,7 @@ footer {
 .glow.gold {
     left: -20%;
     top: auto;
-    bottom: -15%;
+    bottom: 0;
     right: auto;
     background: radial-gradient(closest-side, rgba(212, 175, 55, .45), transparent 70%)
 }
