@@ -4,6 +4,7 @@
     --text: #f5f7fa; /* branco suave */
     --muted: #a7b0c0; /* cinza */
     --blue: #2e7ddf; /* azul */
+    --red: #Fa8f78; /* vermelho */
     --gold: #d4af37; /* dourado */
     --ring: 0 0 0 3px rgba(46, 125, 223, .35);
     --radius: 18px;
@@ -116,7 +117,7 @@ header {
 }
 
 .btn--primary {
-    background: linear-gradient(135deg, var(--blue), #5aa2ff);
+    background: linear-gradient(135deg, var(--red), var(--blue));
     border: 0
 }
 

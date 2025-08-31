@@ -4,6 +4,7 @@
     --text: #f5f7fa;
     --muted: #a7b0c0;
     --blue: #2e7ddf;
+    --red: #Fa8f78;
     --gold: #d4af37;
     --radius: 18px;
 }
@@ -97,7 +98,7 @@ header {
 }
 
 .btn--primary {
-    background: linear-gradient(135deg, var(--blue), #5aa2ff);
+    background: linear-gradient(135deg, var(--red), var(--blue));
     border: 0
 }
 
